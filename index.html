@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fahrenheit and Celsius Converter </title>
+    <link rel="stylesheet" href="converter1.css">
+    <link rel="stylesheet" href="https://www.vecteezy.com/vector-art/3705356-abstract-colorful-line-wave-on-black-background-use-for-banner-poster-website-curve-flow-motion-illustration">
+</head>
+<body>
+    <nav>
+<p>
+
+    Celsius to Fahrenheit
+To convert a temperature from<br> Celsius to Fahrenheit and viz, formulae:<br>
+F=C × 9/5 + 32 <br>
+C=(F-32)×5/9 <br>
+pracical example:<br>
+Travel and Weather Reports
+<br>
+Scenario: You're traveling from the United States <br>(where Fahrenheit is commonly used) to Europe (where Celsius is commonly used).<br>
+Use Case: You see a weather report in Europe that says<br> the temperature is 20°C. To understand this in terms <br>you're familiar with, you convert it to Fahrenheit.<br>
+F=20 × 9/5 + 32 = 68°F 
+
+Conclusion: You know it's a comfortable 68°F, which helps you decide what clothes to pack.
+
+dev TS Mthimuunye @ thandolwakhemthimunye@gmail.com
+</p>
+
+
+    </nav>
+    <div class="external_container">
+    <div class="container">
+        <h1>Temperature Converter</h1>
+        <div class="converter">
+            <input type="number" id="temperatureInput" placeholder="Enter temperature">
+            <div class="radio-buttons">
+                <label>
+                    <input type="radio" name="conversionType" value="toCelsius"> Convert to Celsius
+                </label>
+                <label>
+                    <input type="radio" name="conversionType" value="toFahrenheit"> Convert to Fahrenheit
+                </label>
+            </div>
+            <button onclick="convertTemperature()">Convert</button>
+            <div id="result" class="result"></div>
+        </div>
+    </div>
+</div>
+</div>
+
+    <script src="converter2.js"></script>
+</body>
+</html>
